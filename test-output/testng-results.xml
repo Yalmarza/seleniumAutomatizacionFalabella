@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17710" started-at="2019-06-20T02:17:11Z" finished-at="2019-06-20T02:17:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17710" started-at="2019-06-20T02:17:11Z" finished-at="2019-06-20T02:17:29Z">
+      <class name="automatizacionTestCases.Prueba1">
+        <test-method status="PASS" signature="planPrueba1()[pri:0, instance:automatizacionTestCases.Prueba1@6ea6d14e]" name="planPrueba1" is-config="true" duration-ms="4613" started-at="2019-06-19T22:17:11Z" finished-at="2019-06-19T22:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- planPrueba1 -->
+        <test-method status="PASS" signature="abrir_Falabella_Page()[pri:1, instance:automatizacionTestCases.Prueba1@6ea6d14e]" name="abrir_Falabella_Page" duration-ms="5036" started-at="2019-06-19T22:17:16Z" finished-at="2019-06-19T22:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrir_Falabella_Page -->
+        <test-method status="PASS" signature="validar_Existencia_Elemetos_Home()[pri:2, instance:automatizacionTestCases.Prueba1@6ea6d14e]" name="validar_Existencia_Elemetos_Home" duration-ms="84" started-at="2019-06-19T22:17:21Z" finished-at="2019-06-19T22:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validar_Existencia_Elemetos_Home -->
+        <test-method status="PASS" signature="realizar_Busqueda_Producto(java.lang.String)[pri:3, instance:automatizacionTestCases.Prueba1@6ea6d14e]" name="realizar_Busqueda_Producto" duration-ms="3786" started-at="2019-06-19T22:17:21Z" data-provider="busquedaData" finished-at="2019-06-19T22:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6993328]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- realizar_Busqueda_Producto -->
+        <test-method status="PASS" signature="obtengo_Precio_Producto_encontrado()[pri:4, instance:automatizacionTestCases.Prueba1@6ea6d14e]" name="obtengo_Precio_Producto_encontrado" duration-ms="260" started-at="2019-06-19T22:17:25Z" finished-at="2019-06-19T22:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- obtengo_Precio_Producto_encontrado -->
+        <test-method status="PASS" signature="agregar_producto_carro()[pri:5, instance:automatizacionTestCases.Prueba1@6ea6d14e]" name="agregar_producto_carro" duration-ms="393" started-at="2019-06-19T22:17:25Z" finished-at="2019-06-19T22:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agregar_producto_carro -->
+        <test-method status="PASS" signature="ver_producto_carro()[pri:6, instance:automatizacionTestCases.Prueba1@6ea6d14e]" name="ver_producto_carro" duration-ms="2878" started-at="2019-06-19T22:17:25Z" finished-at="2019-06-19T22:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ver_producto_carro -->
+        <test-method status="PASS" signature="validar_precio_producto_carro()[pri:7, instance:automatizacionTestCases.Prueba1@6ea6d14e]" name="validar_precio_producto_carro" duration-ms="223" started-at="2019-06-19T22:17:28Z" finished-at="2019-06-19T22:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validar_precio_producto_carro -->
+        <test-method status="PASS" signature="cerrar_Navegador()[pri:0, instance:automatizacionTestCases.Prueba1@6ea6d14e]" name="cerrar_Navegador" is-config="true" duration-ms="414" started-at="2019-06-19T22:17:29Z" finished-at="2019-06-19T22:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrar_Navegador -->
+      </class> <!-- automatizacionTestCases.Prueba1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
